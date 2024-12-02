@@ -6,8 +6,8 @@ import pickle
 import os
 # Load all models
 
-st.write("Current Working Directory:", os.getcwd())
-st.write("Files in Directory:", os.listdir("models"))
+# st.write("Current Working Directory:", os.getcwd())
+# st.write("Files in Directory:", os.listdir("models"))
 
 @st.cache_data
 def load_all_models():
